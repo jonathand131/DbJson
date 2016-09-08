@@ -138,6 +138,9 @@ namespace DbJsonServer
 
         private bool IsAcceptable(HttpListenerRequest request)
         {
+            if (request.AcceptTypes == null)
+                return true;
+
             foreach (string param in request.AcceptTypes)
             {
                 string[] splittedParam = param.Split(';');
