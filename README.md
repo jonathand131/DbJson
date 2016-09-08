@@ -18,3 +18,5 @@ The project is splitted in two parts :
  * Navigate to the folder containg the EXE for ArticleDbService
  * Run `installutil ArticleDbService.exe`
  * From Visual Studio or Windows Explorer, launch the ArticleViewer application
+
+![Screenshot](screenshot.png "Screenshot")
